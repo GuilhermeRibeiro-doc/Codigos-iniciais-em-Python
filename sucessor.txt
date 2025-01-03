@@ -1,0 +1,7 @@
+n = int(input("Qual número você gostaria de saber o antecessor e o sucessor?:"))
+
+if n > 0:
+   n = n + 1 
+   print("O sucessor é:", n)
+n = n - 1 
+print("O antecessor é:", n)
